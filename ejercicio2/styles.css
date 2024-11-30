@@ -1,0 +1,58 @@
+* {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #ffcb05;
+  color: #2a75bb;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.random-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 20px;
+  border: 2px solid #ffcb05;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+#pokemon-image {
+  width: 150px;
+  height: 150px;
+}
+
+#pokemon-name {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #ffcb05;
+}
+
+#reload-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2a75bb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: b
+}
